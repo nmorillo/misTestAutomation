@@ -5,11 +5,11 @@
     <classes>
       <class name="search.SearchTest">
         <methods>
-          <include name="setUp"/>
           <include name="BoforeAll"/>
-          <include name="tearDown"/>
+          <include name="searchNoResults2"/>
           <include name="arterAll"/>
-          <include name="searchByDressChangeToBlueColor"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- search.SearchTest -->
     </classes>

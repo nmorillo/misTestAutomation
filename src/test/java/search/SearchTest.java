@@ -1,46 +1,45 @@
 package search;
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import helpers.StaticWaiter;
-import pages.Category;
-import pages.Index;
-import pages.Items;
+import baseTest.Common;
 
-public class SearchTest {
+public class SearchTest extends Common{
+	/*
 	private WebDriver driver;
 	private Index index;
 	private Items item;
 	private Category category;
 	//private StaticWaiter sw = new StaticWaiter();
+	 */
 	
 	@BeforeClass
 	public void BoforeAll() {
-		System.out.println("Armando el ambiente...");
-		System.out.println("Ambienete armado...");
-		System.out.println("Preparando base de datos...");
-		System.out.println("Base de datos armada...");
+//		System.out.println("Armando el ambiente...");
+//		System.out.println("Ambienete armado...");
+//		System.out.println("Preparando base de datos...");
+//		System.out.println("Base de datos armada...");
+		contadorPaso =0;
+		contadorFallo=0;
 	}
 	
 	@AfterClass
 	public void arterAll() {
-		System.out.println("Ambiente destruido...");
-		System.out.println("Base de datos eliminada...");
-	}
+//		System.out.println("Ambiente destruido...");
+//		System.out.println("Base de datos eliminada...");
 	
+	System.out.println("****************************** ");
+	System.out.println("Test que pasaron la prueba : "+ contadorPaso);
+	System.out.println("Test que fallaron la prueba : "+ contadorFallo);
+	System.out.println("****************************** ");
+		
+	}
+	/*
 	@BeforeMethod
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
@@ -64,6 +63,7 @@ public class SearchTest {
 		driver.close();
 		driver.quit();
 	}
+	*/
 	
 	@Test(enabled=false)
 	public void searchByDress() {		
@@ -77,6 +77,13 @@ public class SearchTest {
 		
 		index.search("pepito");		
 		Assert.assertEquals(item.getNoResultsBannerText(), "No results were found for your search \"pepito\"");		
+	}
+	
+	@Test(description="search with no results",enabled=true)
+	public void searchNoResults2() {
+		
+		index.search("pepito");		
+		Assert.assertEquals(item.getNoResultsBannerText(), "Si results were found for your search \"pepito\"", "Tiene que aprarecer");		
 	}
 	
 	@Test(enabled=false)
