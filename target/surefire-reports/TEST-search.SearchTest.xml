@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="search.SearchTest" time="9.059" errors="0" skipped="0">
+<testsuite tests="3" failures="1" name="search.SearchTest" time="13.487" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="13.0.2+8"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Arbusta\EspacioDePrueba\misTests"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="user.script" value=""/>
     <property name="user.country" value="AR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Arbusta\EspacioDePrueba\misTests"/>
+    <property name="user.dir" value="D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Arbusta\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Public\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Public\apache-maven-3.6.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Users\Arbusta\AppData\Local\Microsoft\WindowsApps;C:\Users\Arbusta\AppData\Local\Programs\Git\cmd;C:\Users\Arbusta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Arbusta\AppData\Roaming\npm;."/>
-    <property name="maven.conf" value="C:\Users\Public\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Users\User\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Python37\Scripts\;C:\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Python34\Scripts;C:\Users\User\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\xampp\php;C:\Users\User\AppData\Roaming\Composer\vendor\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-13.0.1;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="57.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Users\Public\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Arbusta"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\User"/>
     <property name="user.timezone" value="America/Buenos_Aires"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="13"/>
-    <property name="user.name" value="Arbusta"/>
-    <property name="java.class.path" value="C:\Users\Public\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="user.name" value="User"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package -e"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="13.0.2"/>
+    <property name="java.version" value="13.0.1"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.stderr.encoding" value="cp850"/>
-    <property name="maven.home" value="C:\Users\Public\apache-maven-3.6.3\bin\.."/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.version.date" value="2019-10-15"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="search.SearchTest" name="searchByDressChangeToBlueColor" time="4.06"/>
-  <testcase classname="search.SearchTest" name="searchNoResults2" time="1.154">
+  <testcase classname="search.SearchTest" name="searchByDressChangeToBlueColor" time="7.675"/>
+  <testcase classname="search.SearchTest" name="searchNoResults2" time="1.115">
     <failure message="Tiene que aprarecer expected [Si results were found for your search &quot;pepito&quot;] but found [No results were found for your search &quot;pepito&quot;]" type="java.lang.AssertionError">java.lang.AssertionError: Tiene que aprarecer expected [Si results were found for your search &quot;pepito&quot;] but found [No results were found for your search &quot;pepito&quot;]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
@@ -73,57 +73,83 @@
 El test  | searchByDressChangeToBlueColor : Paso la prueba
 ============================================
 </system-out>
-    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 26157
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 16191
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1583956141.536][WARNING]: Timed out connecting to Chrome, retrying...
-mar. 11, 2020 4:49:03 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+mar. 16, 2020 3:15:27 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1583956144.430][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956144.531][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956144.632][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956144.733][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956144.834][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956144.936][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.037][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.139][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.241][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.342][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.446][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.548][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.654][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.755][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.860][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956145.961][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956146.062][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956146.164][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956146.266][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956146.368][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956146.470][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956146.571][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956146.751][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956146.853][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956146.954][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956147.453][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956147.792][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956147.933][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956148.121][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956148.224][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956148.328][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956148.429][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956148.531][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956148.641][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956148.743][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956148.846][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956148.948][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956149.050][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956149.155][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956149.260][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956149.362][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956149.466][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956149.568][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583956149.669][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382528.811][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382528.915][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.016][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.117][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.223][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.328][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.430][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.536][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.645][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.746][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.848][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382529.950][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.055][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.156][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.259][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.363][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.465][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.565][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.668][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.773][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.875][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382530.977][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382531.079][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382531.181][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382531.283][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382531.384][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382531.543][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382531.644][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382531.746][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382531.848][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382531.950][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382532.051][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382532.155][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382532.258][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382532.381][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382532.579][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382532.682][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382532.788][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382532.891][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382532.993][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382533.096][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382533.198][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382533.305][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382533.579][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382533.680][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382533.783][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382533.885][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382533.990][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382534.135][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382534.238][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382534.341][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382534.443][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382534.544][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382534.646][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382534.748][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382534.849][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382534.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.054][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.157][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.260][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.361][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.467][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.571][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.675][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.776][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.878][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382535.980][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382536.081][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382536.184][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382536.285][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584382536.390][SEVERE]: Timed out receiving message from renderer: 0.100
 </system-err>
   </testcase>
-  <testcase classname="search.SearchTest" name="searchOrangeShoe" time="3.845"/>
+  <testcase classname="search.SearchTest" name="searchOrangeShoe" time="4.697"/>
 </testsuite>

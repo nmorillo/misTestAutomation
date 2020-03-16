@@ -2,39 +2,39 @@
 <testng-results ignored="6" total="9" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-11T16:48:39 ART" name="search.SearchTest" finished-at="2020-03-11T16:49:29 ART" duration-ms="50501">
+  <suite started-at="2020-03-16T15:15:02 ART" name="search.SearchTest" finished-at="2020-03-16T15:15:55 ART" duration-ms="53381">
     <groups>
     </groups>
-    <test started-at="2020-03-11T16:48:39 ART" name="Command line test" finished-at="2020-03-11T16:49:29 ART" duration-ms="50501">
+    <test started-at="2020-03-16T15:15:02 ART" name="Command line test" finished-at="2020-03-16T15:15:55 ART" duration-ms="53381">
       <class name="search.SearchTest">
-        <test-method is-config="true" signature="BoforeAll()[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:48:39 ART" name="BoforeAll" finished-at="2020-03-11T16:48:39 ART" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="BoforeAll()[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:02 ART" name="BoforeAll" finished-at="2020-03-16T15:15:02 ART" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BoforeAll -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:48:39 ART" name="setUp" finished-at="2020-03-11T16:48:53 ART" duration-ms="14255" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:02 ART" name="setUp" finished-at="2020-03-16T15:15:15 ART" duration-ms="12797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchByDressChangeToBlueColor()[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:48:53 ART" name="searchByDressChangeToBlueColor" finished-at="2020-03-11T16:48:57 ART" duration-ms="4055" status="PASS">
+        <test-method signature="searchByDressChangeToBlueColor()[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:15 ART" name="searchByDressChangeToBlueColor" finished-at="2020-03-16T15:15:22 ART" duration-ms="7672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByDressChangeToBlueColor -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:48:57 ART" name="tearDown" finished-at="2020-03-11T16:48:58 ART" duration-ms="708" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:22 ART" name="tearDown" finished-at="2020-03-16T15:15:25 ART" duration-ms="2624" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchByDressChangeToBlueColor status=SUCCESS method=SearchTest.searchByDressChangeToBlueColor()[pri:0, instance:search.SearchTest@a74868d] output={null}]]]>
+                <![CDATA[[TestResult name=searchByDressChangeToBlueColor status=SUCCESS method=SearchTest.searchByDressChangeToBlueColor()[pri:0, instance:search.SearchTest@7e0e6aa2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:48:58 ART" name="setUp" finished-at="2020-03-11T16:49:09 ART" duration-ms="11540" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:25 ART" name="setUp" finished-at="2020-03-16T15:15:36 ART" duration-ms="11020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchNoResults2()[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:49:09 ART" name="searchNoResults2" description="search with no results" finished-at="2020-03-11T16:49:10 ART" duration-ms="1150" status="FAIL">
+        <test-method signature="searchNoResults2()[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:36 ART" name="searchNoResults2" description="search with no results" finished-at="2020-03-16T15:15:37 ART" duration-ms="1109" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Tiene que aprarecer expected [Si results were found for your search "pepito"] but found [No results were found for your search "pepito"]]]>
@@ -89,37 +89,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchNoResults2 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:49:10 ART" name="tearDown" finished-at="2020-03-11T16:49:12 ART" duration-ms="1158" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:37 ART" name="tearDown" finished-at="2020-03-16T15:15:38 ART" duration-ms="1336" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchNoResults2 status=FAILURE method=SearchTest.searchNoResults2()[pri:0, instance:search.SearchTest@a74868d] output={null}]]]>
+                <![CDATA[[TestResult name=searchNoResults2 status=FAILURE method=SearchTest.searchNoResults2()[pri:0, instance:search.SearchTest@7e0e6aa2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:49:12 ART" name="setUp" finished-at="2020-03-11T16:49:24 ART" duration-ms="12865" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:38 ART" name="setUp" finished-at="2020-03-16T15:15:49 ART" duration-ms="11068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchOrangeShoe()[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:49:24 ART" name="searchOrangeShoe" finished-at="2020-03-11T16:49:28 ART" duration-ms="3846" status="PASS">
+        <test-method signature="searchOrangeShoe()[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:49 ART" name="searchOrangeShoe" finished-at="2020-03-16T15:15:54 ART" duration-ms="4701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchOrangeShoe -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:49:28 ART" name="tearDown" finished-at="2020-03-11T16:49:29 ART" duration-ms="856" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:54 ART" name="tearDown" finished-at="2020-03-16T15:15:55 ART" duration-ms="915" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchOrangeShoe status=SUCCESS method=SearchTest.searchOrangeShoe()[pri:0, instance:search.SearchTest@a74868d] output={null}]]]>
+                <![CDATA[[TestResult name=searchOrangeShoe status=SUCCESS method=SearchTest.searchOrangeShoe()[pri:0, instance:search.SearchTest@7e0e6aa2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="arterAll()[pri:0, instance:search.SearchTest@a74868d]" started-at="2020-03-11T16:49:29 ART" name="arterAll" finished-at="2020-03-11T16:49:29 ART" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="arterAll()[pri:0, instance:search.SearchTest@7e0e6aa2]" started-at="2020-03-16T15:15:55 ART" name="arterAll" finished-at="2020-03-16T15:15:55 ART" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arterAll -->

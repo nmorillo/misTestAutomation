@@ -1,8 +1,9 @@
-C:\Users\Arbusta\EspacioDePrueba\misTests\src\test\java\pages\Index.java
-C:\Users\Arbusta\EspacioDePrueba\misTests\src\test\java\pages\Items.java
-C:\Users\Arbusta\EspacioDePrueba\misTests\src\test\java\selections\WomenSelectionText.java
-C:\Users\Arbusta\EspacioDePrueba\misTests\src\test\java\search\SearchTest.java
-C:\Users\Arbusta\EspacioDePrueba\misTests\src\test\java\baseTest\Common.java
-C:\Users\Arbusta\EspacioDePrueba\misTests\src\test\java\helpers\StaticWaiter.java
-C:\Users\Arbusta\EspacioDePrueba\misTests\src\test\java\helpers\DinamicWaiter.java
-C:\Users\Arbusta\EspacioDePrueba\misTests\src\test\java\pages\Category.java
+D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation\src\test\java\helpers\DinamicWaiter.java
+D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation\src\test\java\pages\Index.java
+D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation\src\test\java\selections\WomenSelectionText.java
+D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation\src\test\java\pages\Category.java
+D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation\src\test\java\baseTest\Common.java
+D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation\src\test\java\helpers\Screenshots.java
+D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation\src\test\java\pages\Items.java
+D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation\src\test\java\helpers\StaticWaiter.java
+D:\Files\Arbusta\Automation\EspacioDePruebas\misTestAutomation\src\test\java\search\SearchTest.java
